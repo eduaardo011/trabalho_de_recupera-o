@@ -1,0 +1,186 @@
+body{
+    background-color: #050816;
+    color: #EAFBFF;
+}
+
+section{
+    padding: 100px 10%;
+}
+
+.banner h1{
+    color: #6EE7FF;
+
+    text-shadow:
+    0 0 5px #6EE7FF,
+    0 0 15px #00BFFF,
+    0 0 30px #008CFF;
+}
+
+section h2{
+    color: #C7F5FF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p{
+    color: #B8C7D9;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: linear-gradient(145deg, #0B1220, #111827);
+
+    padding: 30px;
+    border-radius: 18px;
+
+    width: 250px;
+
+    text-align: center;
+
+    border: 1px solid #1E293B;
+
+    transition: 0.4s;
+}
+
+.card h3{
+    color: #6EE7FF;
+
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #CBD5E1;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+    border-color: #38BDF8;
+
+    box-shadow:
+    0 0 10px #38BDF8,
+    0 0 25px rgba(56,189,248,0.5);
+}
+
+.compra-console{
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+.preco{
+    font-size: 55px;
+
+    color: #6EE7FF;
+
+    text-shadow:
+    0 0 10px #00BFFF,
+    0 0 25px #008CFF;
+}
+
+.parcelamento{
+    color: #B8C7D9;
+
+    font-size: 18px;
+}
+
+.btn-comprar{
+    background: linear-gradient(90deg, #00BFFF, #2563EB);
+
+    color: white;
+
+    border: none;
+
+    padding: 18px 40px;
+
+    border-radius: 15px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.btn-comprar:hover{
+
+    transform: scale(1.08);
+
+    box-shadow:
+    0 0 15px #38BDF8,
+    0 0 35px rgba(56,189,248,0.7);
+}
+
+header{
+    background-color: rgba(5, 8, 22, 0.85);
+
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid #1E40AF;
+}
+
+nav a{
+    color: #EAFBFF;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #6EE7FF;
+}
+
+footer{
+    background-color: #070B14;
+
+    color: #C7F5FF;
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-top: 1px solid #1E40AF;
+}
+
+#header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid white;
+}
